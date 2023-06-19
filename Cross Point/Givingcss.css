@@ -1,0 +1,103 @@
+			
+			
+            /* main body */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  text-decoration: none;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Image/pexels-photo-380863.jpg");
+  min-height: 100%;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  margin: -135px 0 0 0;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+#list2 {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 50px 0px 100px 0;
+    width = "100%"
+}
+
+
+#list2 a:hover {
+    opacity:.8;
+	filter: alpha(opacity = 80);
+}
+
+.payinfo {
+    margin: 0 150px 0 150px
+}
+
+#giving {
+    margin: 0 0 0 33%;
+}
+
+.onetime {
+    margin: 0 0 0 15%;
+}
+
+.logininfos {
+    text-align: center;
+}
+
+.logininfos1 {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+
+.logininfo {
+    text-align:center;
+    margin: 0 160px 0 160px;
+}
+
+.logininfo a{
+    color: #4775d1;
+}
+
+.logininfo a:hover {
+    color: #24478f;
+}
+
+ 

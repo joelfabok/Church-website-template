@@ -1,0 +1,97 @@
+			
+            /* main body */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Image/frank-mckenna-219299.jpg");
+  min-height: 100%;
+}
+
+
+.bgimg-4 {
+    background-color:#282E34;
+    min-height: 100px;
+    
+}
+
+ 
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  margin: -135px 0 0 0;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+#list2 {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 50px 0px 100px 0;
+    width = "100%"
+}
+
+/* Profiles */
+
+#mainarea {
+	margin: 30px 200px 0 200px;
+}
+
+#myDIV1, #myDIV2, #myDIV3, #myDIV4 {
+	position: absolute;
+	margin: -175px 0 0 30%;
+	color: black;
+	
+}
+
+.textb {
+	background-color: #F1F1F1;
+	padding: 20px 20px;
+}
+
+hr {
+    margin: 50px 0 -50px 0;
+    opacity: 0.30;
+    
+}
+
+.line {
+    margin: 50px 0 20px 0;
+}
+
+
+ 
