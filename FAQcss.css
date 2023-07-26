@@ -1,0 +1,160 @@
+			
+		
+            /* main body */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Image/pexels-photo-208494.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Image/pexels-photo-296282.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("Image/pexels-photo-360698.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+    background-color:#282E34;
+    min-height: 100px;
+    
+}
+
+ 
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  margin: -135px 0 0 0;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+#list2 {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 50px 0px 100px 0;
+    width = "100%"
+}
+
+
+#list2 a:hover {
+    opacity:.8;
+	filter: alpha(opacity = 80);
+}
+
+#adress{
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+}
+
+#adress a:link {
+        color: lightgrey;
+
+}
+
+#events {
+    color: black;
+    text-align: center;
+    padding: 0 0 0 -200px;
+    font-size: 20px;
+    margin: -50px 0 0 -350px;
+}
+
+#eventsbutton {
+            background-color: Transparent;
+            border: 1px solid black;
+            cursor:pointer;
+            overflow: hidden;
+            padding: 20px 20px;
+            color: black;
+            margin: 0 0 0 -370px;
+            
+}
+
+a:hover #eventsbutton{
+    background: #f9f2ec;
+    opacity: 0.5;
+}
+
+
+        /* Question Bar */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 0 0 0 25%;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+
+
+div.panel {
+    padding: 0 200px 0 200px;
+    text-align: center;
+     display: none;
+    background-color: white;
+}
+
+
+        

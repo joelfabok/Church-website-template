@@ -1,0 +1,205 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<link rel="stylesheet" href="Pastorscss.css">
+<link rel="stylesheet" href="Footer.css">
+<link rel="stylesheet" href="Menu.css">
+<script src="menu2.js"></script>
+<script src="menu.js"></script>
+<title>Pastors</title>
+<link rel="shortcut icon" type="image/x-icon" href="37cac8faadbeb95006058346475b5a0d.png" /> 
+
+<style>
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+<script>
+
+.mySlides {display:none;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</script>
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   			    <a href="index.html">Home</a>
+   			    <a href="Pastors.html">Pastors</a>
+				<a href="Ministries.html">Ministries</a>
+				<a href="Ethos.html">Ethos</a>
+				<a href="Giving.html">Giving</a>
+				<a href="Events.html">Events</a>
+				<a href="Podcasts.html">Podcast</a>
+				<a href="FAQ.html">FAQ's</a>
+	</div> <!-- This is the end of the menu links -->
+
+
+
+<div class="bgimg-1">	
+<a href="index.html"><img src="37cac8faadbeb95006058346475b5a0d.png" width="100px" height="100px" style="float:left;"></a><br>
+ <div class="container" onclick="openNav()">
+  		<div class="bar1"></div>
+  		<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</div></div><!-- this is the menu button --> 
+	
+	 <div class="caption">
+    <span class="border">Our Team</span>
+  </div>
+</div>
+
+
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <center><h2 style="margin: 0 0 100px 0;">Pastors And Team</h2></center>
+  <div id="mainarea">
+	  <div id="profimg">
+  		<img src="Image/1392234133_493845_garayfamily14of14.jpg" onclick="myFunctionBarry()">
+	  </div>
+	<hr>
+<div id="myDIV1">
+<p class="textb fade">Barry and Kandee Sappington, Lead Pastors<br>
+work: 619.464.3077<br>
+Email: info@crosspointelife.org</p>
+</div>
+  </div>	
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div id="mainarea">
+  	<div id="profimg"> 
+  		<img onclick="myFunctionCraig()" src="Image/1476727191_1150780_Craig.jpg">
+	</div>
+<hr>
+<div id="myDIV2">
+<p class="textb fade">Craig Osborne, Executive Pastor<br>
+Email: pastorcraig@crosspointelife.org</p>
+</div>
+  </div>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div id="mainarea">
+  <div id="profimg">
+  <img onclick="myFunctionDani()" src="Image/1376084297_315872_dani3M.jpg">
+	</div>
+	<hr>
+	<div id="myDIV3">
+	<p class="textb fade">Dani Womack, Community Life Pastor<br>
+work: 619.464.3077<br>
+Email: pastordani@crosspointelife.org</p>
+	</div>
+  </div>
+   </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div id="mainarea">
+  	<div id="profimg">
+  	<img onclick="myFunctionChassion()" src="Image/1376084609_315874_chassion1L.jpg">
+	</div>
+	
+<div id="myDIV4">
+<p class="textb fade">Chassion Griggs, Student Life Pastor<br>
+work: 619.464.3077<br>
+Email: pastorchassion@crosspointelife.org
+ 
+</p>
+</div>
+
+<script>
+
+
+
+function myFunctionDani() {
+    var x = document.getElementById('myDIV3');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function myFunctionBarry() {
+    var x = document.getElementById('myDIV1');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function myFunctionCraig() {
+    var x = document.getElementById('myDIV2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function myFunctionChassion() {
+    var x = document.getElementById('myDIV4');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+
+</script>
+  	<hr class="line">
+   </div>
+</div>
+</div>
+
+
+<div class="bgimg-4">
+  <span class="border"></span>
+  <footer>
+	<div id="mainfoot">
+		<a href="https://www.facebook.com/CrosspointeLifeChurch/"><img src="facebook-icon.png" width="25px" height="25px"></a>
+		<a href="https://twitter.com/cplchurch"><img src="twitter-icon-alt-twitter-icon-15.png" width="25px" height="25px"></a>
+		<a href="https://pushpay.com/pay/crosspointelife/WL88Kz43ER0o6t0PnGBYrg"><img src="screen-shot-2015-08-12-at-3-49-58-pm.png" width="25px" height="25px"></a>
+		<p id="copywright">&copy; Crosspointe Church</p>
+	</div> <!-- End of mainfoot --> 
+	<a  id="privacy" target="_blank" href="http://www.crosspointelife.org/files/privacy_policy.pdf">Privacy Policy</a>
+	<a id="terms" target="_blank" href="http://www.crosspointelife.org/files/terms_of_service.pdf">Terms Of Use</a>
+	</footer>
+  </div>
+</div>
+</body>
+</html>
+<!-- All Content is copyright of Joel Fabok & CrossPointe Life Church. -->

@@ -1,0 +1,133 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<link rel="stylesheet" href="FAQcss.css">
+<link rel="stylesheet" href="Footer.css">
+<link rel="stylesheet" href="Menu.css">
+<script src="menu2.js"></script>
+<script src="menu.js"></script>
+<title>FAQ</title>
+<link rel="shortcut icon" type="image/x-icon" href="37cac8faadbeb95006058346475b5a0d.png" /> 
+<style>
+.mySlides {display:none;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   			<a href="index.html">Home</a>
+   			    <a href="Pastors.html">Pastors</a>
+				<a href="Ministries.html">Ministries</a>
+				<a href="Ethos.html">Ethos</a>
+				<a href="Giving.html">Giving</a>
+				<a href="Events.html">Events</a>
+				<a href="Podcasts.html">Podcast</a>
+				<a href="FAQ.html">FAQ's</a>
+	</div> <!-- This is the end of the menu links -->
+
+
+
+<div class="bgimg-1">
+<a href="index.html"><img src="37cac8faadbeb95006058346475b5a0d.png" width="100px" height="100px" style="float:left;"></a><br>
+
+ <div class="container" onclick="openNav()">
+  		<div class="bar1"></div>
+  		<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</div></div><!-- this is the menu button --> 
+	
+	 <div class="caption">
+    <span class="border">Frequently Asked Questions</span>
+  </div>
+</div>
+
+
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">What is your worship like?</button>
+<div class="panel">
+  <p>Crosspointe Life's Sunday services begin with an energetic and engaging worship experience. Feel free to sit, kneel, stand, clap, dance or lift your hands during the worship time, knowing that worship is about connecting with God, and not external appearances.</p>
+</div></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">When are your services? </button>
+<div class="panel">
+  <p>Sundays 10:30am</p>
+</div></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">Where do I park?</button>
+<div class="panel">
+  <p>Please be sure to take advantage of our special parking spaces reserved for first time and returning guests.  They are located right   in front of the main church auditorium. (You will see the  signs.) Parking is also available in three separate parking lots.  One is located just to the south of our main auditorium on the east side of La Mesa Blvd; our second one is our west parking lot located directly across from the main auditorium;  lastly there is parking directly behind the church.</p>
+</div></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">What do I wear?</button>
+<div class="panel">
+  <p>Our goal from the begining has been to create a fun safe environment here at Crosspointe where you are free to come dressed as you feel comfortable and are free to explore your faith in a community of believers and seekers of Kingdom mysteries.</p>
+</div></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">What is there for my children?</button>
+<div class="panel">
+  <p>We have an awesome kids program here at Crosspointe for infants to grade 6.  Our team is always aspiring to create a safe and fun environment for your children as well as giving them a place to encounter God.</p>
+</div></div>
+
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 0px 80px;text-align: justify;">
+  <button class="accordion">What is the Aroma Cafe?</button>
+<div class="panel">
+  <p>Aroma Cafe is our coffee shop located on campus so that you can come to church and grab a great cup of Jo before or after service.  We are also building a growing inventory of books and music that can be purchased as well.</p>
+</div></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px 50px 80px;text-align: justify;">
+  <button class="accordion">What is Crosspointe Central:</button>
+<div class="panel">
+  <p>Crosspointe Central is our “hub” for you to connect with whats going on here at Crosspointe!  We have hosts that will help you if you need any information on the church or need to sign up for future events. Its also our connection point for our first time guests as well!  So make sure you stop by so you can receive your free gift, a book of your choosing.</p>
+</div></div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+
+
+<div class="bgimg-4">
+  <span class="border"></span>
+  <footer>
+	<div id="mainfoot">
+		<a href="https://www.facebook.com/CrosspointeLifeChurch/"><img src="facebook-icon.png" width="25px" height="25px"></a>
+		<a href="https://twitter.com/cplchurch"><img src="twitter-icon-alt-twitter-icon-15.png" width="25px" height="25px"></a>
+		<a href="https://pushpay.com/pay/crosspointelife/WL88Kz43ER0o6t0PnGBYrg"><img src="screen-shot-2015-08-12-at-3-49-58-pm.png" width="25px" height="25px"></a>
+		<p id="copywright">&copy; Crosspointe Church</p>
+	</div> <!-- End of mainfoot --> 
+	<a  id="privacy" target="_blank" href="http://www.crosspointelife.org/files/privacy_policy.pdf">Privacy Policy</a>
+	<a id="terms" target="_blank" href="http://www.crosspointelife.org/files/terms_of_service.pdf">Terms Of Use</a>
+	</footer>
+  </div>
+</div>
+</body>
+</html>
+<!-- All Content is copyright of Joel Fabok & CrossPointe Life Church. -->

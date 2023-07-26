@@ -1,0 +1,122 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<link rel="stylesheet" href="Eventscss.css">
+<link rel="stylesheet" href="Footer.css">
+<link rel="stylesheet" href="Menu.css">
+<script src="menu2.js"></script>
+<script src="menu.js"></script>
+<title>Events</title>
+<link rel="shortcut icon" type="image/x-icon" href="37cac8faadbeb95006058346475b5a0d.png" /> 
+<style>
+.mySlides {display:none;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+
+<body>
+
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   			    <a href="index.html">Home</a>
+   			    <a href="Pastors.html">Pastors</a>
+				<a href="Ministries.html">Ministries</a>
+				<a href="Ethos.html">Ethos</a>
+				<a href="Giving.html">Giving</a>
+				<a href="Events.html">Events</a>
+				<a href="Podcasts.html">Podcast</a>
+				<a href="FAQ.html">FAQ's</a>
+	</div> <!-- This is the end of the menu links -->
+
+
+
+
+<div class="bgimg-1">
+<a href="index.html"><img src="37cac8faadbeb95006058346475b5a0d.png" width="100px" height="100px" style="float:left;"></a><br>
+ <div class="container" onclick="openNav()">
+  		<div class="bar1"></div>
+  		<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</div></div><!-- this is the menu button --> 
+	
+	 <div class="caption">
+    <span class="border">Events</span>
+  </div>
+</div>
+
+
+<!-- Start of the Slide Show -->
+
+<div style="color: #777;background-color:white;text-align:center;padding:80px 80px;text-align: justify;">
+
+<div id="slideshow">
+<center>
+<div class="w3-content w3-section" style="max-width:550px">
+  <img class="mySlides" src="https://crosspointelife.ccbchurch.com/get.php?id=202&tk=UGW8Z27X38Z2NN87FV7RW82X5QDUHN8M&t=image" style="width:100%">
+  <img class="mySlides" src="https://crosspointelife.ccbchurch.com/get.php?id=206&tk=WR6VBE997HCE3X8PWGC83RTHSTUZQAD2&t=image" style="width:100%">
+  <img class="mySlides" src="https://crosspointelife.ccbchurch.com/get.php?id=204&tk=YENNJ7QSYGRGCVYU7PYHJ2M2CAH7ZMPX&t=image" style="width:100%">
+  <img class="mySlides" src="https://crosspointelife.ccbchurch.com/get.php?id=203&tk=2FJKEHX6SBRP2ZHE43ZM3C2XEWV3DX6H&t=image" style="width:100%">
+  <img class="mySlides" src="https://crosspointelife.ccbchurch.com/get.php?id=205&tk=56N4WQ7SB8KUYRGC6CY9X5EV38HMR2WH&t=image" style="width:100%">
+</div>
+</center>
+</div>
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000); // Change image every 2 seconds
+}
+</script>
+
+<!-- End Of slide Show -->
+
+
+
+<!-- Start of the calendar section -->
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px 90px 80px;text-align: justify;">
+  <h3 style="text-align:center; color: white;">Our Calendar</h3><br>
+  <div id="calander"> 
+<center><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=en.christian%23holiday%40group.v.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FToronto" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
+</div>
+</div>
+<!-- End of the calendar section -->
+
+
+
+<div class="bgimg-4">
+  <span class="border"></span>
+  <footer>
+	<div id="mainfoot">
+		<a href="https://www.facebook.com/CrosspointeLifeChurch/"><img src="facebook-icon.png" width="25px" height="25px"></a>
+		<a href="https://twitter.com/cplchurch"><img src="twitter-icon-alt-twitter-icon-15.png" width="25px" height="25px"></a>
+		<a href="https://pushpay.com/pay/crosspointelife/WL88Kz43ER0o6t0PnGBYrg"><img src="screen-shot-2015-08-12-at-3-49-58-pm.png" width="25px" height="25px"></a>
+		<p id="copywright">&copy; Crosspointe Church</p>
+	</div> <!-- End of mainfoot --> 
+	<a  id="privacy" target="_blank" href="http://www.crosspointelife.org/files/privacy_policy.pdf">Privacy Policy</a>
+	<a id="terms" target="_blank" href="http://www.crosspointelife.org/files/terms_of_service.pdf">Terms Of Use</a>
+	</footer>
+  </div>
+</div>
+</body>
+</html>
+<!-- All Content is copyright of Joel Fabok & CrossPointe Life Church. -->
